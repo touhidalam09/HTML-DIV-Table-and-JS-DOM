@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2020, 10:14:44 AM
+    Author     : User
+*/
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;
+    box-sizing: border-box; 
+}
+
+.container{
+    background: ghostwhite;
+    position: relative;
+    width: 900px;
+}
+.header{
+    background-image: url(img/img8.jpg);
+    width: 100%;
+}
+.header .logo{
+
+    display: inline-block;
+    padding: 20px 10px;
+}
+.header .logo .logo-img{
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+
+}
+.header .company-name{
+    cursor: pointer;
+    display: inline;
+    color: cyan;
+}
+.header .company-name .brand-name{
+    display: inline;
+}
+.body{
+    position: relative;
+}
+
+.menu-bar{
+    background: lightgray;
+    float: left;
+    /*display: inline-block;*/
+    width: 15%;
+    /*height: 120vh;*/
+
+}
+.menu-bar a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    background: lightslategray;
+    padding: 9px 40px;
+    border-bottom: 1px solid black;
+
+}
+
+.menu-bar a:hover {
+    background: darkgrey;
+    color: white;
+    border-bottom: 2.5px solid red;
+}
+
+
+.form-body-div{
+/*    position: absolute;
+    top: 0;*/
+    left: 15%;
+    width: 100%;
+}
+
+
+.form-title{
+    padding: 10px;
+    background-color: #97d8e6;
+    color:black;
+    text-align: center;
+}
+
+
+.input-table{
+    margin-top: 3%;
+    border-spacing: 20px;
+}
+
+table tr {
+    /*height:42px;*/
+}
+
+table tr:nth-child(odd) td input{
+    border: 1px solid #c9f5d3;
+}
+
+table tr:nth-child(even) td input{
+    border: 1px solid #c9f5f2;
+}
+
+
+table tr:nth-child(even) td:first-child {
+    background:#c9f5f2;
+}
+table tr:nth-child(odd) td:first-child {
+    background:#c9f5d3;
+}
+
+label{
+    float: right;
+}
+input{
+    padding: 9px;
+}
+
+table tr:nth-child(odd) input[type=text]:focus {
+    background-color: #c9f5d3;
+}
+
+table tr:nth-child(even) input[type=text]:focus {
+
+    background-color: #c9f5f2;
+}
+input[type=email]:focus {
+    background-color: #c9f5f2;
+}
+input[type=password]:focus {
+    background-color:#c9f5d3;
+}
+
+
+.div-footer{
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+}
+.div-footer  .footer-para{
+    padding: 18px;
+}
